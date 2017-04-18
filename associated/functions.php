@@ -15,4 +15,21 @@
 
   require_once(get_stylesheet_directory().'/custom/branding.php');
 
+
+  if (!function_exists( 'be_themes_fallback_nav_menu' )) {
+  	function be_themes_fallback_nav_menu(){
+  		// $args = array (
+  		// 	'sort_column' => 'menu_order, post_title',
+  		// 	'menu_class'  => 'menu left',
+  		// 	'include'     => '',
+  		// 	'exclude'     => '',
+  		// 	'echo'        => true,
+  		// 	'show_home'   => false,
+  		// 	'link_before' => '',
+  		// 	'link_after'  => ''
+  		// );
+  		// wp_page_menu($args);
+  		/* echo '<a href="'.admin_url("nav-menus.php").'">SET THE MAIN MENU...</a>' ; */
+  	}
+  }
 ?>
