@@ -1,6 +1,6 @@
 /* standard Reach styling of Oshin */
 .title-module-wrap.page-title-module-custom {
-	padding: 10px 0px;
+	padding: 0px 0px;
 }
 .left-sidebar-page,
 .right-sidebar-page,
@@ -10,6 +10,10 @@
 .portfolio-archives.no-sidebar-page #content-wrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+.home .no-sidebar-page #content-wrap { // no padding on home page for now.
+	padding-top: 0px!important;
+	padding-bottom: 0px;
 }
 .tatsu-module {
   margin-bottom: 15px;
