@@ -35,6 +35,19 @@ i.fa-pull-right {
   padding-top: 0px !important;
   padding-bottom: 0px; }
 
+.header-controls-right .mobile-nav-controller-wrap {
+  display: none !important; }
+  .header-controls-right .mobile-nav-controller-wrap .mobile-nav-controller {
+    display: none !important; }
+    .header-controls-right .mobile-nav-controller-wrap .mobile-nav-controller .be-mobile-menu-icon {
+      display: none !important; }
+    .header-controls-right .mobile-nav-controller-wrap .mobile-nav-controller .be-mobile-menu-icon:after,
+    .header-controls-right .mobile-nav-controller-wrap .mobile-nav-controller .be-mobile-menu-icon:after {
+      content: inherit; }
+
+.be-mobile-menu-icon {
+  display: none !important; }
+
 .tatsu-module {
   margin-bottom: 15px; }
 
@@ -60,3 +73,7 @@ i.fa-pull-right {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 480px) {
+  .style4 .logo {
+    max-width: 90%;
+    margin: auto; } }

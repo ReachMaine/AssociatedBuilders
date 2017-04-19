@@ -15,6 +15,22 @@
 	padding-top: 0px!important;
 	padding-bottom: 0px;
 }
+.header-controls-right .mobile-nav-controller-wrap { // hide hamberger menu for now.
+	display: none!important;
+	.mobile-nav-controller {
+		display: none!important;
+		.be-mobile-menu-icon {
+			display: none!important;;
+		}
+		.be-mobile-menu-icon:after,
+		.be-mobile-menu-icon:after {
+				content: inherit;
+		}
+	}
+}
+.be-mobile-menu-icon {
+	display: none!important;
+}
 .tatsu-module {
   margin-bottom: 15px;
 }
